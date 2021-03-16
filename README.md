@@ -5,10 +5,16 @@ Repo documenting:
 I.
 https://github.com/lfernandez55/express-hosting-react-barebones
 
-Desc: Mixes ejs with react. Express serves "/" route with partial named layout.ejs.  Layout contains other partials and
-<div id="main"></div> and <script src="javascripts/main.js"></script> which renders React.
+Desc: Mixes ejs with react. 
 
-GUI Desc:  Shows one page rendering layout.ejs, header.ejs, footer.ejs and React app in middle
+Express serves "/" route with partial named layout.ejs.  Layout.ejs contains other partials and
+<div id="main"></div> and <script src="javascripts/main.js"></script> which renders React component App.js 
+
+Express serves "/alt" route with partial named layout.ejs.  Layout.ejs contains other partials and
+<div id="alt"></div> and <script src="javascripts/main.js"></script> which renders React component Alt.js 
+
+GUI Desc:  Shows one page rendering layout.ejs, header.ejs, footer.ejs and React app in middle. One can swap
+out different React components by clicking on the nav. 
 
 To spin up: npm run server.  Visit localhost:8080.
 
@@ -18,10 +24,6 @@ automatically updates.
 DB: NO DB
 
 Origin:  This was copied from a pc directory that's a clone of https://github.com/lfernandez55/web3430-activity5/tree/3d4ac1efc49867b971532ea9f5cf083f62610429
-
-TODO:  This works on my laptop. But the code hasn't been confirmed to work by cloning the repo. There's also
-legacy npm modules in here that don't need to be in here (mongo, mongoose and more advanced react stuff) that comes from
-the movies project that don't need to be a part of this project since its just demoing ejs/react rendering.
 
 II.
 https://github.com/lfernandez55/react_helloworld
