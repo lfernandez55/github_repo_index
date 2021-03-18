@@ -7,9 +7,9 @@ https://github.com/lfernandez55/express-hosting-react-barebones
 
 Desc: Mixes ejs with react. 
 
-Express serves "/" route with partial named layout.ejs.  Layout.ejs contains other partials and <div id="main"></div> and <script src="javascripts/main.js"></script> which renders React component App.js 
+Express serves "/" route with partial named layout.ejs.  Layout.ejs contains other partials and \<div id="main"\>\</div\> and \<script src="javascripts/main.js"\>\</script\> which renders React component App.js 
 
-Express serves "/alt" route with partial named layout.ejs.  Layout.ejs contains other partials and <div id="alt"></div> and <script src="javascripts/main.js"></script> which renders React component Alt.js 
+Express serves "/alt" route with partial named layout.ejs.  Layout.ejs contains other partials and  \<div id="alt"\>\</div\> and \<script src="javascripts/main.js"\>\</script\> which renders React component Alt.js 
 
 GUI Desc:  Shows one page rendering layout.ejs, header.ejs, footer.ejs and React app in middle. One can swap out different React components by clicking on the nav. 
 
