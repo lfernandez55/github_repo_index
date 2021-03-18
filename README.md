@@ -7,19 +7,15 @@ https://github.com/lfernandez55/express-hosting-react-barebones
 
 Desc: Mixes ejs with react. 
 
-Express serves "/" route with partial named layout.ejs.  Layout.ejs contains other partials and
-<div id="main"></div> and <script src="javascripts/main.js"></script> which renders React component App.js <br /><br />
+Express serves "/" route with partial named layout.ejs.  Layout.ejs contains other partials and <div id="main"></div> and <script src="javascripts/main.js"></script> which renders React component App.js 
 
-Express serves "/alt" route with partial named layout.ejs.  Layout.ejs contains other partials and
-<div id="alt"></div> and <script src="javascripts/main.js"></script> which renders React component Alt.js 
+Express serves "/alt" route with partial named layout.ejs.  Layout.ejs contains other partials and <div id="alt"></div> and <script src="javascripts/main.js"></script> which renders React component Alt.js 
 
-GUI Desc:  Shows one page rendering layout.ejs, header.ejs, footer.ejs and React app in middle. One can swap
-out different React components by clicking on the nav. 
+GUI Desc:  Shows one page rendering layout.ejs, header.ejs, footer.ejs and React app in middle. One can swap out different React components by clicking on the nav. 
 
 To spin up: npm run server.  Visit localhost:8080.
 
-Build notes:  Nodemon means changes to xpress automatically update.  Watch in webpack.config.js mean that react code also
-automatically updates.  
+Build notes:  Nodemon means changes to xpress automatically update.  Watch in webpack.config.js mean that react code also automatically updates.  
  
 DB: NO DB
 
