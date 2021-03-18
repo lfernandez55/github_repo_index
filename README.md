@@ -2,7 +2,7 @@
 
 Repo documenting:
 
-I.
+##I.
 https://github.com/lfernandez55/express-hosting-react-barebones
 
 Desc: Mixes ejs with react. 
@@ -21,7 +21,7 @@ DB: NO DB
 
 Origin:  This was copied from a pc directory that's a clone of https://github.com/lfernandez55/web3430-activity5/tree/3d4ac1efc49867b971532ea9f5cf083f62610429
 
-II.
+##II.
 https://github.com/lfernandez55/react_helloworld
 
 Desc:  Mongo, Express, React CRUD App
@@ -39,7 +39,8 @@ DB: Mongo DB titled projectsminidb.  Contains only one Mongo table
 Origin:  The readme contains a full log of how to build it.  Created from scratch with npx create-react-app my-app, added express,  
 
 
-III. https://github.com/lfernandez55/web3430-activity5
+##III. 
+https://github.com/lfernandez55/web3430-activity5
 
 Desc:  Movie app.  This app is what I develop slowly following all of Abdul Malek's videos.
 
@@ -51,7 +52,8 @@ IV. lfernandez55/web3430-assignment4
 
 Desc: Projects app.  This is what I develop following Abdul Malek's assignments.
 
-V. https://github.com/lfernandez55/yt-webpack2-basics
+##V. 
+https://github.com/lfernandez55/yt-webpack2-basics
 
 Desc:  Learning the basics of webpack
 
