@@ -8,7 +8,7 @@ https://github.com/lfernandez55/express-hosting-react-barebones
 Desc: Mixes ejs with react. 
 
 Express serves "/" route with partial named layout.ejs.  Layout.ejs contains other partials and
-<div id="main"></div> and <script src="javascripts/main.js"></script> which renders React component App.js 
+<div id="main"></div> and <script src="javascripts/main.js"></script> which renders React component App.js <br /><br />
 
 Express serves "/alt" route with partial named layout.ejs.  Layout.ejs contains other partials and
 <div id="alt"></div> and <script src="javascripts/main.js"></script> which renders React component Alt.js 
@@ -54,3 +54,9 @@ Note:  There are more activities after 5 but I got tired of creating new movie r
 IV. lfernandez55/web3430-assignment4
 
 Desc: Projects app.  This is what I develop following Abdul Malek's assignments.
+
+V. https://github.com/lfernandez55/yt-webpack2-basics
+
+Desc:  Learning the basics of webpack
+
+
